@@ -21,8 +21,8 @@ From Git bash (or powershell):
 Verify the existence of the NGINX container by visiting **localhost:8090** (port specified in main.tf) in your web browser or running docker ps to see the container.
 <img src="https://github.com/Kari-sad/terraform-docker-demo/blob/master/nginx.JPG">  
 
-1. To view the created container, run `docker ps` 
-1. To stop the container, run `terraform destroy`.
+6. To view the created container, run `docker ps` 
+7. To stop the container, run `terraform destroy`.
 
 
 You've now provisioned and destroyed an NGINX webserver with Terraform.
