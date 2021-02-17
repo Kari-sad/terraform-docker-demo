@@ -19,7 +19,8 @@ From Git bash (or powershell):
 1. Provision the NGINX server container with apply. When Terraform asks you to confirm type yes and press ENTER.Run:   
  `terraform apply`  
 Verify the existence of the NGINX container by visiting **localhost:8090** (port specified in main.tf) in your web browser or running docker ps to see the container.
-<img src="https://github.com/Kari-sad/terraform-docker-demo/blob/master/nginx.JPG">
+<img src="https://github.com/Kari-sad/terraform-docker-demo/blob/master/nginx.JPG">  
+
 1. To view the created container, run `docker ps` 
 1. To stop the container, run `terraform destroy`.
 
